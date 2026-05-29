@@ -1,0 +1,25 @@
+{
+  "name": "exper-language",
+  "displayName": "Exper Language",
+  "description": "Exper Extension",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "exper",
+      "aliases": ["Exper", "exper"],
+      "extensions": [".exper"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "exper",
+      "scopeName": "source.exper",
+      "path": "./syntaxes/exper.tmLanguage.json"
+    }]
+  }
+}

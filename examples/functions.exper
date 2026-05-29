@@ -1,0 +1,6 @@
+fn soma(a, b=10) {
+    return a + b
+}
+
+console.log(soma(5))
+console.log(soma(5, 20))
