@@ -1,0 +1,74 @@
+# =========================
+# TESTE DE CORES DA EXPER
+# =========================
+
+struct Pessoa {
+
+    nome = "Sem nome"
+    idade = 0
+    ativo = True
+
+}
+
+fn soma(a, b=10) {
+    return a + b
+}
+
+pessoa = Pessoa()
+
+pessoa.nome = "Callebe"
+pessoa.idade = 18
+
+numero = 42
+decimal = 3.14
+
+hexa = 0xFF
+binario = 0b101010
+
+resultado = soma(numero, 8)
+
+if (pessoa.idade >= 18 and pessoa.ativo) {
+
+    console.log("Olá {pessoa.nome}")
+    console.log("Resultado: {resultado}")
+
+} 
+else {
+
+    console.log("Menor de idade")
+
+}
+
+contador = 10
+
+contador += 5
+contador -= 2
+contador *= 3
+contador /= 2
+contador //= 2
+contador %= 4
+
+bits = 5 ^ 3
+bits2 = 5 & 3
+bits3 = 5 | 3
+bits4 = ~5
+
+lista = [1, 2, 3]
+
+console.log(hexa)
+console.log(binario)
+console.log(bits)
+console.log(bits2)
+console.log(bits3)
+console.log(bits4)
+
+texto = "exper"
+
+console.log(texto.upper())
+console.log(texto.lower())
+console.log(texto.capitalize())
+
+console.log(any([True, False, True]))
+console.log(all([[True, True, True]]))
+
+valor = None
